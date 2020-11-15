@@ -64,7 +64,7 @@ func main() {
 				fmt.Println("***")
 				oldName := fmt.Sprintf("%s/%s", dir, f.Name())
 				newName := fmt.Sprintf("%s/%s - %s.mkv", dir, final.Episode, final.Title)
-        fmt.Println(oldName)
+        			fmt.Println(oldName)
 				fmt.Println(newName)
 
 				err := os.Rename(oldName, newName)
