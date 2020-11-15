@@ -75,5 +75,5 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("Total count: %d\nTotal matches: %d\n", count, match)
+	fmt.Printf("Total count: %d\nTotal match: %d\n", count, match)
 }
