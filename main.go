@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	dir := "/Volumes/stuff/tv/Batman_The_Animated_Series_1992"
+	dir = "/Volumes/stuff/tv/Batman_The_Animated_Series_1992"
 )
 type final struct {
 	Files []outputFile `json:"files"`
